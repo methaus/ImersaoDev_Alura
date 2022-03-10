@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+html, body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-family: 'Roboto Mono', monospace;
+  color: #FFF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header #imersaodev-logo {
+  width: 200px;
+}
+
+header #top-links {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  flex-direction: column;
+}
+
+header #top-links #alura-link {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+header #top-links #alura-link img {
+  width: 40px;
+}
+
+header #top-links #mygithub {
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  text-decoration: none;
+}
+
+header #top-links #mygithub:hover #authorlink {
+  background-color: #FFF;
+  color: #000;
+}
+
+header #top-links #mygithub #githublogo {
+  margin-right: 10px;
+}
+
+main {
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png");
+  height: 500px;
+  width: 500px;
+}
