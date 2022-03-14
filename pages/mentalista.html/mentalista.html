@@ -3,14 +3,14 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <title> Imersão Dev_ Alura - Calculadora de Médias</title>
+    <title> Imersão Dev_ Alura - Mentalista</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
     <header>
-      <h1>Calculadora de média</h1>
-      <p>Descubra qual a sua média de nota de todas as provas!</p>
-      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" id="imersaodev-logo" alt="Imersão Dev Logo">
+      <h1>Mentalista</h1>
+      <p>Digite um número de 0 a 10</p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="Imersão Dev Logo">
       <div id="top-links">
         <a href="https://alura.com.br/" target="_blank" id="alura-link">
           <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="alura link">
@@ -21,17 +21,11 @@
       </div>
     </header>
     <main id="content">
-      <div id="options">
-        <button name="notas2" class="nota" value="2">Notas Bimestrais</button>
-        <button name="notas4" class="nota" value="4">Notas Semestrais</button>
-      </div>
+      <form id="form">
+        <input type="number" min="0" max="10" name="tentativa">
+        <button type="submit">Chutar</button>
+      </form>
     </main>
-    <script src="./form.js"></script>
+    <script src="./ment.js"></script>
   </body>
 </html>
-
-
-
-
-
-
