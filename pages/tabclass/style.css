@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Mono', monospace;
+  color: #FFF;
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header #imersaodev-logo {
+  width: 200px;
+}
+
+header #top-links {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  flex-direction: column;
+}
+
+header #top-links #alura-link {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+header #top-links #alura-link img {
+  width: 40px;
+}
+
+header #top-links #mygithub {
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  text-decoration: none;
+}
+
+header #top-links #mygithub:hover #authorlink {
+  background-color: #FFF;
+  color: #000;
+}
+
+header #top-links #mygithub #githublogo {
+  margin-right: 10px;
+}
+
+main #form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+main table {
+  text-align: left;
+}
+
+th, tr, td {
+  border: solid 1px white;
+  color: white;
+  padding: 2px 7px;
+}
+
+main button {
+  font-family: "Roboto Mono", monospace;
+  border-radius: 4px;
+}
+
+main button:hover {
+  box-shadow: 0 0 6px #FFF;
+}
